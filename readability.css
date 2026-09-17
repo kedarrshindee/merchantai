@@ -1,0 +1,21 @@
+/* Readable controls and text at desktop and mobile sizes. */
+body{font-size:1rem;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:16px;z-index:100;background:white;color:#132d4d;padding:12px 20px;border:2px solid #147b67;border-radius:5px}
+.skip-link:focus{top:12px}
+main{padding-left:32px;padding-right:32px}
+.sidebar{width:270px}.main{margin-left:270px}
+.brand small{font-size:.75rem;letter-spacing:.25px;line-height:1.5}.brand{font-size:23px}.brandmark{flex-shrink:0}
+.nav,.button,label,.hint,.summary,.findings summary,.findings ul,.action,.empty-check,.human-note strong,.human-note p,.audit li,.error,#decision-status,.subtitle,.topbar,.step span,.demo-bar strong,.demo-bar select,.doc,.upload,.form-footer>span,.decision-grid button{font-size:.875rem}
+input:not([type=checkbox]):not([type=file]),select,textarea{font-size:1rem;min-height:46px}
+.eyebrow,.nav-label,.chip,.prototype,.demo-bar small,.step small,.stat span,.analysis-footnote,.audit time,.source small,.doc small,.upload small,.section-title>span,.session small,.sidebar p,.sidebar-bottom>span,footer{font-size:.75rem}
+.sidebar-bottom>span{color:#c6d5e6}.sidebar p{color:#c6d5e6}
+.button{min-height:46px;line-height:1.4}.panel-head{gap:14px;flex-wrap:wrap}.chip{white-space:normal}
+.workspace-grid{grid-template-columns:minmax(0,1.35fr) minmax(340px,1fr)}
+.form-grid{gap:20px}.document-grid{grid-template-columns:1fr}.doc{min-height:46px}.doc input{width:18px;height:18px;flex-shrink:0}
+.reading>p,.reading pre{font-size:1rem}.reading{overflow-wrap:anywhere}.evolution article{font-size:.875rem}.evolution small{font-size:.75rem}
+.summary,.action,.audit li,.hint{overflow-wrap:anywhere}.form-footer{flex-wrap:wrap}.section-title{flex-wrap:wrap}h3{font-size:1rem}
+.demo-bar select{width:280px}.demo-bar{flex-wrap:wrap}.steps i{width:20px}.steps{gap:12px}.step{min-width:0}
+footer{color:#5e6d7e}.hint,.analysis-footnote,.stat span,.step small{color:#596a7d}
+@media(max-width:1250px){.sidebar{width:235px}.main{margin-left:235px}.workspace-grid{grid-template-columns:minmax(0,1fr)}.form-grid,.document-grid{grid-template-columns:1fr 1fr}.review-column{display:grid;grid-template-columns:1fr 1fr;align-items:start}.analysis-panel,.audit{grid-column:1/-1}.sidebar .brand{font-size:21px}.sidebar .brand small{font-size:.75rem}.step small{font-size:.75rem}}
+@media(max-width:940px){.sidebar{width:auto}.main{margin-left:0}.sidebar nav{gap:8px}.nav{font-size:.875rem}.sidebar .brand{font-size:23px}.demo-bar select{width:260px}.demo-bar small{max-width:none}.form-grid{grid-template-columns:1fr 1fr}.field.wide{grid-column:1/-1}}
+@media(max-width:680px){main{padding:24px 16px 0}.review-column,.form-grid,.document-grid{display:grid;grid-template-columns:1fr}.demo-bar{display:flex}.demo-bar>div{flex-basis:100%}.demo-bar select{width:100%}.demo-bar .button{font-size:.875rem}.step span{font-size:.75rem}.step b{font-size:.75rem;min-width:27px;min-height:27px}.nav{font-size:.75rem;flex:1 1 42%}.sidebar nav{justify-content:start}.topbar,.prototype{font-size:.75rem}.session{display:none}.doc{font-size:.875rem}.reading{padding:20px 16px}.decision-grid button{font-size:.875rem}.source{align-items:start}.form-footer .button{width:100%}h1{font-size:1.6rem}}
